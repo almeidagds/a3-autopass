@@ -1,5 +1,9 @@
 <div align="center">
   <h1>Projeto A3 - AutoPass</h1>
+  <div align="center">
+    <img src="https://img.shields.io/static/v1?label=Nome&message=Gabriel%20de%20Almeida&color=black&style=for-the-badge"/>
+    <img src="https://img.shields.io/static/v1?label=RA&message=822230956&color=blue&style=for-the-badge"/>
+  </div>
   <img src="https://user-images.githubusercontent.com/82405235/236637417-40bdb312-3c13-4b31-83c7-6e1b625453fe.jpg" alt="Mulher utilizando o Cartão TOP no ônibus" style="width: 100%"/>
 </div>
 
