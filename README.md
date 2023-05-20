@@ -19,6 +19,7 @@
   <li><a href="#fluxos-usuario">Fluxos de usuário</a></li>
   <li><a href="#personas">Personas</a></li>
   <li><a href="#cenarios">Cenários</a></li>
+  <li><a href="#prototipos-lo-fi">Protótipos lo-fi</a></li>
 </ol>
 
 <div id="introducao">
@@ -62,4 +63,23 @@
   <h3>Cenário do Pedro</h3>
   <p>No caminho para o trabalho no início do mês, Pedro precisa realizar a recarga do seu cartão TOP na ATM da estação. Por conta da quantidade de pessoas precisando passar pelo mesmo processo, ele decide, de uma vez por todas, baixar o aplicativo e realizar a recarga do seu cartão ali mesmo.</p>
   <p>Devido a utilização do app, Pedro não se atrasou nesse dia. O app, então, virou costume e agora todo final/início de mês ele utiliza o aplicativo para realizar a recarga do seu vale transporte.</p>
+</div>
+
+<div id="prototipos-lo-fi">
+  <h2>Protótipos lo-fi</h2>
+  <p>Os protótipos lo-fi, também conhecidos como protótipos de baixa fidelidade, são representações simplificadas e de baixo custo de uma interface ou experiência do usuário. Eles são criados durante a fase inicial do processo de design para explorar ideias, testar conceitos e iterar rapidamente. Os protótipos lo-fi podem ser feitos de forma manual, usando papel, canetas, recortes ou de forma digital, com ferramentas simples de design. Eles são úteis para comunicar e validar ideias, envolver stakeholders, testar fluxos de interação e identificar problemas de usabilidade antes de investir recursos na implementação final. Ao criar protótipos de baixa fidelidade, os designers podem obter feedback valioso, refinar a experiência do usuário e economizar tempo e recursos no desenvolvimento.</p>
+  <p>Foram criados wireframes (layout de uma interface, sem detalhes visuais, cores ou elementos gráficos refinados) das principais telas do sistema para a criação de uma visualização prévia de como o sistema, como um todo, vai ser apresentado para o usuário. Outras telas que podem ser necessárias posteriormente serão baseadas nos protótipos já existentes. Você pode ter acesso ao projeto dos wireframes no link a seguir:</p>
+  <a href="https://www.figma.com/file/P8Cd3zOBBpnusJbYrbYNyX/Wireframe?type=design&node-id=7%3A106&t=CqnsOxZnZYhPuX2H-1">Figma - Protótipos Wireframe</a>
+  <h3>Tela inicial</h3>
+  <p>A seguinte tela será a cara do sistema, ou seja, a primeira que será apresentada ao usuário durante o uso de uma ATM. Nela, o usuário poderá escolher o tipo de compra de bilhete que irá efetuar. Além disso, disponibilizaremos um QRCode para <i>download</i> do aplicativo e informações à respeito do mesmo.</p>
+  <img src="https://github.com/almeidagds/a3-autopass/assets/82405235/bb79d88e-c1cb-41d1-aa22-0b46c61c84fc" alt=Wireframe da tela inicial" style="width: 80%"/>
+  <h3>Tela de carregamento / processamento</h3>
+  <p>Essa tela irá aparecer sempre que algo um processo estiver sendo carregado ou algum procedimento estiver sendo realizado pelo usuário (como o pagamento através da máquina de cartão, por exemplo). Nesses casos, uma imagem relacionada a ação que esta sendo executada será disposta, tal qual a descrição dessa ação.</p>
+  <img src="https://github.com/almeidagds/a3-autopass/assets/82405235/fe535962-bf55-4d43-b71c-91e8fe342fb4" alt=Wireframe da tela de carregamento / processamento" style="width: 80%"/>
+  <h3>Tela de seleção do tipo de recarga</h3>
+  <p>Aqui, o usuário selecionará o tipo de recarga que irá realizar na ATM. Lembrando que as opções sempre serão dispostas de acordo com a disponibilidade da ATM em questão.</p>
+  <img src="https://github.com/almeidagds/a3-autopass/assets/82405235/bb892aef-ff67-40a8-b929-64d0fb8ecd74" alt=Wireframe da tela de carregamento / processamento" style="width: 80%"/>
+  <h3>Tela de seleção de quantidade</h3>
+  <p>Nessa parte do sistema o usuário irá determinar a quantidade de bilhetes ou o valor da compra. Para pagamentos com dinheiro a seleção será por valor e para outros tipos de pagamento será por quantidade de bilhetes, a fim de facilitar em ambos os casos.</p>
+  <img src="https://github.com/almeidagds/a3-autopass/assets/82405235/6232106b-6640-46b0-ae19-4874be02c4a6" alt=Wireframe da tela de carregamento / processamento" style="width: 80%"/>
 </div>
