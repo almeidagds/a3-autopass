@@ -19,7 +19,8 @@
   <li><a href="#fluxos-usuario">Fluxos de usuário</a></li>
   <li><a href="#personas">Personas</a></li>
   <li><a href="#cenarios">Cenários</a></li>
-  <li><a href="#prototipos-lo-fi">Protótipos lo-fi</a></li>
+  <li><a href="#prototipo-lo-fi">Protótipo lo-fi</a></li>
+  <li><a href="#prototipo-hi-fi">Protótipo hi-fi</a></li>
 </ol>
 
 <div id="introducao">
@@ -65,8 +66,8 @@
   <p>Devido a utilização do app, Pedro não se atrasou nesse dia. O app, então, virou costume e agora todo final/início de mês ele utiliza o aplicativo para realizar a recarga do seu vale transporte.</p>
 </div>
 
-<div id="prototipos-lo-fi">
-  <h2>Protótipos lo-fi</h2>
+<div id="prototipo-lo-fi">
+  <h2>Protótipo lo-fi</h2>
   <p>Os protótipos lo-fi, também conhecidos como protótipos de baixa fidelidade, são representações simplificadas e de baixo custo de uma interface ou experiência do usuário. Eles são criados durante a fase inicial do processo de design para explorar ideias, testar conceitos e iterar rapidamente. Os protótipos lo-fi podem ser feitos de forma manual, usando papel, canetas, recortes ou de forma digital, com ferramentas simples de design. Eles são úteis para comunicar e validar ideias, envolver stakeholders, testar fluxos de interação e identificar problemas de usabilidade antes de investir recursos na implementação final. Ao criar protótipos de baixa fidelidade, os designers podem obter feedback valioso, refinar a experiência do usuário e economizar tempo e recursos no desenvolvimento.</p>
   <p>Foram criados wireframes (layout de uma interface, sem detalhes visuais, cores ou elementos gráficos refinados) das principais telas do sistema para a criação de uma visualização prévia de como o sistema, como um todo, vai ser apresentado para o usuário. Outras telas que podem ser necessárias posteriormente serão baseadas nos protótipos já existentes. Você pode ter acesso ao projeto dos wireframes no link a seguir:</p>
   <a href="https://www.figma.com/file/P8Cd3zOBBpnusJbYrbYNyX/Wireframe?type=design&node-id=7%3A106&t=CqnsOxZnZYhPuX2H-1">Figma - Protótipos Wireframe</a>
@@ -82,4 +83,11 @@
   <h3>Tela de seleção de quantidade</h3>
   <p>Nessa parte do sistema o usuário irá determinar a quantidade de bilhetes ou o valor da compra. Para pagamentos com dinheiro a seleção será por valor e para outros tipos de pagamento será por quantidade de bilhetes, a fim de facilitar em ambos os casos.</p>
   <img src="https://github.com/almeidagds/a3-autopass/assets/82405235/6232106b-6640-46b0-ae19-4874be02c4a6" alt=Wireframe da tela de carregamento / processamento" style="width: 80%"/>
+</div>
+
+<div id="prototipo-hi-fi">
+  <h2>Protótipo hi-fi</h2>
+  <p>O protótipo hi-fi é uma representação detalhada e próxima do produto final, com elementos visuais, interações e funcionalidades refinados. Criado com ferramentas avançadas, ele permite testar o design e validar a experiência do usuário antes da implementação. Com animações, transições e interações complexas, o protótipo hi-fi proporciona uma visão precisa do produto, identificando problemas e ajustes antes do desenvolvimento completo, economizando tempo e custos.</p>
+  <p>O protótipo hi-fi do projeto foi criado utilizando a ferramenta Figma, permitindo a criação de uma representação visual detalhada e interativa do produto final. Com o Figma, foi possível desenvolver transições, animações e interações que reproduzem o fluxo real do sistema, proporcionando uma experiência de navegação completa e realista. Você pode acessar o prótipo através do seguinte link:</p>
+  <p><a href="https://www.figma.com/file/5S2uwWD3l8U8Fjao2F1MEG/Prot%C3%B3tipo-hi-fi?type=design&node-id=0%3A1&t=SILpGbJn0d3devAt-1">Figma - Protótipo hi-fi</a></p>
 </div>
