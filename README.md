@@ -21,6 +21,7 @@
   <li><a href="#cenarios">Cenários</a></li>
   <li><a href="#prototipo-lo-fi">Protótipo lo-fi</a></li>
   <li><a href="#prototipo-hi-fi">Protótipo hi-fi</a></li>
+  <li><a href="#avaliacao-heuristicas">Avaliação das Heurísticas de Nielsen</a></li>
 </ol>
 
 <div id="introducao">
@@ -90,4 +91,11 @@
   <p>O protótipo hi-fi é uma representação detalhada e próxima do produto final, com elementos visuais, interações e funcionalidades refinados. Criado com ferramentas avançadas, ele permite testar o design e validar a experiência do usuário antes da implementação. Com animações, transições e interações complexas, o protótipo hi-fi proporciona uma visão precisa do produto, identificando problemas e ajustes antes do desenvolvimento completo, economizando tempo e custos.</p>
   <p>O protótipo hi-fi do projeto foi criado utilizando a ferramenta Figma, permitindo a criação de uma representação visual detalhada e interativa do produto final. Com o Figma, foi possível desenvolver transições, animações e interações que reproduzem o fluxo real do sistema, proporcionando uma experiência de navegação completa e realista. Você pode acessar o prótipo através do seguinte link:</p>
   <p><a href="https://www.figma.com/file/5S2uwWD3l8U8Fjao2F1MEG/Prot%C3%B3tipo-hi-fi?type=design&node-id=0%3A1&t=SILpGbJn0d3devAt-1">Figma - Protótipo hi-fi</a></p>
+</div>
+
+<div id="avaliacao-heuristicas">
+  <h2>Avaliação das Heurísticas de Nielsen</h2>
+  <p>As heurísticas de Nielsen, também conhecidas como as "10 Heurísticas de Nielsen", são um conjunto de diretrizes de usabilidade propostas por Jakob Nielsen, renomado especialista em design de interação. Essas heurísticas são um conjunto de princípios amplamente aceitos que ajudam a identificar problemas de usabilidade em interfaces de usuário. Elas fornecem um conjunto de diretrizes gerais, como feedback ao usuário, consistência e flexibilidade do sistema, prevenção de erros e design estético. As heurísticas de Nielsen são amplamente utilizadas na avaliação de interfaces e no processo de design, auxiliando os profissionais a criar produtos mais eficientes, intuitivos e satisfatórios para os usuários.</p>
+  <p>A avaliação do projeto de acordo com as Heurísticas de Nielsen pode ser encontrada no seguinte arquivo:</p>
+  <p><a href="https://github.com/almeidagds/a3-autopass/blob/main/avaliacao-heuristicas.pdf">Avaliação das Heurísticas de Nielsen</a></p>
 </div>
