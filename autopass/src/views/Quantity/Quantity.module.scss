@@ -1,0 +1,123 @@
+@import "../../styles/variables";
+
+.quantity {
+    width: 100%;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 900;
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    &__select {
+        display: flex;
+        justify-content: center;
+        
+        &__keyboard {
+            width: 210px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &__key {
+                height: 60px;
+                width: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $white;
+                font-size: 32px;
+                font-weight: bold;
+                background-color: $top-green;
+                border-radius: 10px;
+                margin-bottom: 15px;
+                cursor: pointer;
+
+                &:nth-child(10) {
+                    background-color: $cancel-red;
+                }
+
+                &:nth-child(12) {
+                    background-color: $mid-black;
+                }
+            }
+        }
+
+        &__info {
+            margin-left: 30px;
+            &__quantity {
+                font-size: 24px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                height: 40px;
+                width: 440px;
+                background-color: $top-green;
+                border-radius: 10px;
+                color: $white;
+                margin-bottom: 15px;
+                padding: 10px;
+            }
+
+            &__price {
+                font-size: 24px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                height: 40px;
+                width: 440px;
+                background-color: $mid-black;
+                border-radius: 10px;
+                color: $white;
+                margin-bottom: 15px;
+                padding: 10px;
+            }
+
+            &__text {
+                font-size: 20px;
+                font-weight: 500;
+                width: 450px;
+
+                ul {
+                    list-style-type: disc;
+                    margin-left: 20px;
+
+                    li {
+                        margin-bottom: 1em;
+
+                        &:last-child {
+                            margin-bottom: .2em;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        width: calc(100% - 40px);
+
+        &__button {
+            font-size: 24px;
+            font-weight: 900;
+            text-decoration: underline;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}

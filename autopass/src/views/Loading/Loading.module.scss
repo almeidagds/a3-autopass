@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+
+.loading {
+    width: 100%;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 135px;
+
+        &__image {
+            height: 310px;
+            width: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("../../../public/assets/images/logo-top-icon.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &__text {
+            font-size: 32px;
+            font-weight: 900;
+            margin-top: 20px;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: $cancel-red;
+        font-size: 24px;
+        font-weight: 900;
+        padding: 20px;
+
+        &__cancel {
+            margin-top: 10px;
+            text-decoration: underline;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}
