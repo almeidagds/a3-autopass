@@ -72,7 +72,7 @@ export default function Quantity() {
             transactionValue: transactionValue,
             paymentType: info.paymentType
         };
-        await axios.post(`${api}/transaction/create`, requestJson);
+        await axios.put(`${api}/transaction/create`, requestJson);
     }
 
 
