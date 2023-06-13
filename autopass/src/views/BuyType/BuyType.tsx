@@ -8,7 +8,13 @@ export default function BuyType() {
     const api = "https://localhost:7175/api";
     const navigate = useNavigate();
     const location = useLocation();
-    const cards: ICard[] = location?.state;
+    const cards: ICard[] = location?.state.sort().sort(function(a: ICard, b:ICard) {
+        if(a.type < b.type) {
+            return -1;
+        } else {
+            return true;
+        }
+    });
 
     function navigateBack() {
         navigate(-1);
